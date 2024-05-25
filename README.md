@@ -65,3 +65,25 @@ Just some stuff that I like to keep...
     },
 }
 ```
+```
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key":     "ctrl+`",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key":     "ctrl+`",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when":    "terminalFocus"
+    },
+    {
+        "key": "shift+tab",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "workbench.action.previousEditor"
+    },
+]
+```
