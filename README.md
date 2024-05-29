@@ -83,5 +83,10 @@ Just some stuff that I like to keep...
         "key": "ctrl+shift+t",
         "command": "workbench.action.previousEditor"
     },
+    {
+        "key": "capslock",
+        "command": "extension.vim_escape",
+        "when": "editorTextFocus && vim.active && !inDebugRepl"
+    },
 ]
 ```
